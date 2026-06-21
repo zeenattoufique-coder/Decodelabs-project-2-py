@@ -1,0 +1,12 @@
+print("===== EXPENSE TRACKER =====")
+
+total = 0
+
+n = int(input("Kitne expenses enter karne hain? "))
+
+for i in range(1, n + 1):
+    expense = float(input(f"Expense {i}: "))
+    total = total + expense
+
+print("\n===== RESULT =====")
+print("Total Spent =", total)
